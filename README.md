@@ -21,34 +21,24 @@ NumPy
 os / shutil
 
 Installation
-Clone the repository:
-bash
-Copy
-Edit
+1.Clone the repository:
 git clone https://github.com/Ritikapuri23/smart-image-toolkit.git
 cd smart-image-toolkit
-Install dependencies:
-bash
-Copy
-Edit
-pip install -r requirements.txt
-If requirements.txt doesn't exist, manually install:
-bash
-Copy
-Edit
-pip install opencv-python pillow numpy
-How to Use
-Run the main script:
-bash
-Copy
-Edit
-python smart_image_toolkit.py
-Enter a blur threshold (e.g., 100).
 
-Click on "Select Folder and Process".
+2.Install dependencies:
+pip install -r requirements.txt
+
+3.If requirements.txt doesn't exist, manually install:
+pip install opencv-python pillow numpy
+
+How to Use
+1.Run the main script:
+python smart_image_toolkit.py
+2.Enter a blur threshold (e.g., 100).
+3.Click on "Select Folder and Process".
 
 The app will:
-Detect and display blurry images in a slideshow.
-Detect duplicate images.
-Crop faces (if feature is enabled).
-Use navigation and delete buttons to manage images
+1.Detect and display blurry images in a slideshow.
+2.Detect duplicate images.
+3.Crop faces (if feature is enabled).
+4.Use navigation and delete buttons to manage images
